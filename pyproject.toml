@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyssair"
+version = "0.1.0a0"
+description = "A first-of-its-kind project that faithfully converts Python bytecode into a static single assignment (SSA)-like intermediate representation (IR) for program analysis."
+readme = "README.md"
+requires-python = "==3.12"
+license = "Apache-2.0"
+authors = [
+  { name="Jifeng Wu", email="jifengwu2k@gmail.com" }
+]
+classifiers = [
+    "Programming Language :: Python :: 3.12"
+]
+dependencies = [
+    "networkx",
+    "put-back-iterator"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/jifengwu2k/pyssair"
+"Bug Tracker" = "https://github.com/jifengwu2k/pyssair/issues"
